@@ -1,0 +1,464 @@
+/* 
+mobile: 375px
+desktop: 1440px
+*/
+
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* header mobile */
+
+h1 {
+    color: #242D52;
+    font-size: 2,3rem;
+}
+
+h1::before {
+    content: url("../img/dotsManage.png");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+header nav, header div.button-container{
+    display: none;
+}
+
+/* main mobile */
+
+section img {
+    width: 100vw;
+}
+
+div.container1 p,span{
+    color: #242D52;
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    margin: 0rem 2rem;
+    text-align: center;
+}
+
+div.container2 p {
+    color: grey ;
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: center;
+    line-height: 2.5;
+    margin: 1rem 2rem;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.button {
+    align-items: center;
+    background-color: #F3603B;
+    background-position: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    text-align: center;
+    width: 100px;
+    transition: 300ms;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+div.button a {
+    color: white;
+    margin: 28px 0px;
+    text-decoration: none;
+}
+
+.number-container {
+    align-items: center;
+    background-color: #F3603B;
+    background-position: center;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    display:flex;
+    font-weight: bold;
+    height: 3rem;
+    justify-content: center;
+    text-align: center;
+    width: 5.5rem ;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.item {
+    color: #242D52;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+article p {
+    color: grey;
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-bottom: 4rem;
+    padding: 0 1.5rem;
+    text-align: justify;
+}
+
+.number {
+    align-items: center;
+    display: flex;
+    margin: 1rem
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.img1 img{
+    border-radius: 100%;
+    height: 7rem;
+    width: 7rem;
+}
+
+div.name span {
+    color: #242D52;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
+    margin: 3rem;
+    text-align: center;
+}
+
+.content2 {
+    margin-top: 4rem;
+}
+
+.people {
+    align-items: center;
+    display: flex;
+    
+}
+
+.card1, .card3 {
+    display: none;
+}
+
+section.people p {
+    color: grey;
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-bottom: 8rem;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+/* prefooter */
+
+.prefooter {
+    align-items: center;
+    background-color: #F3603B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 4.3rem;
+    font-weight: bold;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+div.button.reverse a{
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    color: #F3603B;
+    display: flex;
+    font-size: 1rem;
+    height: 3rem;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+}
+
+section.prefooter div.button-container {
+    margin-top: 2rem;
+}
+
+/* footer mobile */
+
+footer {
+    background-color:#1E1E26;
+}
+
+input {
+    border: none;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.form p {
+    display: none;
+}
+
+button {
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    height: 3rem;
+    width: 60px;
+    margin-left: 1rem;
+    transition: 300ms;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+input {
+    border-radius: 50px;
+    height: 3rem;
+    width: 200px;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+li {
+    padding: 1rem;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3rem;
+}
+
+.redes a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.redes a:hover {
+    transform: scale(1.4);
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: gray;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* desktop */
+
+@media screen and (min-width: 900px) {
+    /* header */
+    
+    header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav {
+        display: flex;
+        order: -1;
+        width: 50%;
+    }
+
+    header img {
+        display: none;
+    }
+
+    header h1 {
+        order: -2
+    }
+
+    header nav a {
+        color: #242D52;
+        text-decoration: none;
+    }
+
+    header div.button-container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+        margin-right: 5rem;
+        width: 15vw;
+    }
+
+    /* main */
+
+    .content1 {
+        display: flex;
+    }
+    
+    div.uso-manage div.button-container {
+    justify-content: flex-start;
+    margin: 2rem;
+    }
+
+    section img {
+        width: 50%;
+    }
+
+    div.uso-manage {
+        order: -1;
+        text-align: justify;
+        width: 50%;
+    }
+
+    div.uso-manage div.container1 p {
+        font-size: 4rem;
+    }
+
+    div.uso-manage div.container1 p,div.uso-manage div.container2 p {
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .content2 {
+        display: flex;
+    }
+
+    .list, .diff {
+        width: 50%;
+    }
+
+    .diff div.container1 p, .diff div.container2 p {
+        justify-content: flex-start;
+        text-align: left ;
+    }
+
+    .card1, .card2, .card3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* prefooter */
+
+    .prefooter {
+        flex-direction: row;
+        height: 200px;
+        justify-content: space-between;
+    }
+
+    .prefooter p {
+        text-align: left;
+        margin-left: 7rem;
+        font-size: 3.5rem;
+    }
+
+    .prefooter div.button-container {
+        width: 30vw;
+    }
+
+/* footer */
+
+.redes-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2rem;
+    width: 33%;
+}
+
+nav {
+    order: 2;
+    width: 33%;
+}
+
+nav a {
+    transition: 300ms;
+}
+
+nav a:hover {
+    transform: scale(1.4);
+}
+
+.redes {
+    order: 1
+}
+
+footer {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    order:5;
+}
+
+.form p {
+    color: gray;
+}
+
+.copy {
+    display: none;
+}
+
+}
